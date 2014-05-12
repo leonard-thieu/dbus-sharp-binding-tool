@@ -1,6 +1,7 @@
 # License
 
 Copyright (c) 2014, Leonard Thieu
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -31,12 +32,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Options.cs
 
 Authors:
+
 Jonathan Pryor <jpryor@novell.com>
+
 Federico Di Gregorio <fog@initd.org>
+
 Rolf Bjarne Kvinge <rolf@xamarin.com>
 
 Copyright (C) 2008 Novell (http:www.novell.com)
+
 Copyright (C) 2009 Federico Di Gregorio.
+
 Copyright (C) 2012 Xamarin Inc (http:www.xamarin.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -61,6 +67,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ##  DBusSharp
 
 Copyright 2006 Alp Toker <alp@atoker.com>
+
 Copyright 2010 Other Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
