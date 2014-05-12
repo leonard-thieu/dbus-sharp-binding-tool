@@ -60,8 +60,8 @@ Authors:
 * Jonathan Pryor <jpryor@novell.com>
 * Federico Di Gregorio <fog@initd.org>
 * Rolf Bjarne Kvinge <rolf@xamarin.com>
-
     ​
+    
 * Copyright (C) 2008 Novell (http://www.novell.com)
 * Copyright (C) 2009 Federico Di Gregorio.
 * Copyright (C) 2012 Xamarin Inc (http://www.xamarin.com)
