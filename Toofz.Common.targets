@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProductVersion>8.0.30703</ProductVersion>
+        <SchemaVersion>2.0</SchemaVersion>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <FileAlignment>512</FileAlignment>
+        <BinPath>bin\</BinPath>
+        <OutputPath>$(BinPath)\$(Configuration)\</OutputPath>
+        <LibraryDir>$(SolutionDir)\Libraries\</LibraryDir>
+        <AllowedReferenceRelatedFileExtensions>
+            $(AllowedReferenceRelatedFileExtensions);
+            .dll.config;
+            .dll.mdb;
+            .exe.mdb
+        </AllowedReferenceRelatedFileExtensions>
+        <DefineConstants>TRACE;CUSTOMTOOL</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <DefineConstants>DEBUG;$(DefineConstants)</DefineConstants>
+        <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    </PropertyGroup>
+    <PropertyGroup Condition="$(Configuration.Contains('Release'))">
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
+    <PropertyGroup Condition="$(Platform.Contains('AnyCPU'))">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+    <PropertyGroup Condition="$(Platform.Contains('x86'))">
+        <PlatformTarget>x86</PlatformTarget>
+    </PropertyGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+    <Words>
+        <Recognized>
+            <Word>toofz</Word>
+            <Word>dbus-sharp-binding-tool</Word>
+            <Word>thieu</Word>
+            <Word>leonard-thieu</Word>
+            <Word>github</Word>
+        </Recognized>
+    </Words>
+    <Acronyms>
+        <CasingExceptions>
+            <Acronym>dbus-sharp-binding-tool</Acronym>
+        </CasingExceptions>
+    </Acronyms>
+</Dictionary>
